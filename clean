@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "Cleaning directories..."
+echo ""
+rm ~/Downloads/* -rf
+rm ~/Documents/* -rf
+rm ~/Desktop/* -rf
+
+sleep 5
+echo "Complete."
