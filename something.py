@@ -1,6 +1,7 @@
+
 print("I am doing something")
 
-<<<<<<< HEAD
+
 def doing_something():
     someone = input("Do you want me to do something? ")
 
@@ -9,13 +10,16 @@ def doing_something():
     else:
 	print("That's what I wanted to hear!")
 
-
 doing_something()
-=======
 
 class User:
 	def __init__(self, name, id):
 		self.name = name
 		self.id = id
 
->>>>>>> d42c55c9d3d183cb1fc7d6323e2bdaa67a891393
+
+
+class Client:
+	def get_creds(self):
+		print("hello")
+
