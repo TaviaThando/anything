@@ -1,11 +1,19 @@
+class Person:
+	def __init__(self, gender):
+		self.gender = gender
 
-class User:
-	def __init__(self, name, id):
-		self.name = name
-		self.id = id
+	def greet(self):
+		print('Hello')
 
 
+class User(Person):
+	def __init__(self, gender, email, username):
+		super().__init__(gender)
+		self.email = email
+		self.username = username
 
-class Client:
-	def get_creds(self):
-		print("hello")
+	def greet(self):
+		print(f'{self.username} says hello.')
+
+
+jake = User('male', 'jake@email.io', 'jake123')
