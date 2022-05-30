@@ -3,7 +3,7 @@ class Person:
 		self.gender = gender
 
 	def greet(self):
-		print("hello")
+		print('Hello')
 
 
 class User(Person):
@@ -14,19 +14,6 @@ class User(Person):
 
 	def greet(self):
 		print(f'{self.username} says hello.')
-
-
-print("I am doing something\n")
-def doing_something():
-	someone = input("Do you want me to do something? ")
-
-	if someone == "yes":
-		print("Thats a shame, I'm lazy")
-	else:
-		print("That's what I wanted to hear!")
-
-
-doing_something()
 
 
 jake = User('male', 'jake@email.io', 'jake123')
